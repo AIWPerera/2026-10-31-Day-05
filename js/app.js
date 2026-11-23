@@ -150,3 +150,45 @@ for(let i=0; i<5; i++){
     console.log("Value of i is: " + i);
 }
 
+let p = 0;
+
+do {
+    console.log("Value of p is: " + p);
+    p++;
+} while (p < 5);
+
+
+// Function
+
+function myFunction(){
+   console.log("This is my function");
+}      
+myFunction();
+
+
+
+function addNumbers(a, b){
+    return a + b;
+}   
+console.log("Sum of a and b is: " + addNumbers(10, 20));
+
+
+const multiplyNumbers = (a, b) => {
+    return a * b;
+}   
+console.log("Product of a and b is: " + multiplyNumbers(10, 20));
+
+
+let sum1=function(a, b){
+    return a + b;
+}       
+console.log("Sum of a and b is: " + sum1(10, 20));
+
+
+
+//arrow function
+let puuSum = (num1,num2) => {return num1 + num2;}
+console.log("Sum of num1 and num2 is: " + puuSum(10, 20));
+
+let puuMultiply = (num1,num2) =>  num1 * num2;
+console.log("Product of num1 and num2 is: " + puuMultiply(10, 20));
